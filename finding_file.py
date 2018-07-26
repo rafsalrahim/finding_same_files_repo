@@ -10,6 +10,6 @@ dir_name = os.getcwd()
                 print(file)'''
 
 #alternative : faster
-files=os.listdir(cwd)
+files=os.listdir(dir_name)
 files_mkv=[i for i in files if i.endswith('.mkv')]
 print (files_mkv)
