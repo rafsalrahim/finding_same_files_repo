@@ -1,3 +1,6 @@
+# this application will collect all the mkv files in an array
+
+
 import os
 
 #initialising the directory path to the spacific location
